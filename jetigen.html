@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEV PRODUCTION — Backstage</title>
+  <link rel="stylesheet" href="jetigen.css">
+</head>
+<body>
+
+<header>
+  <h1>LEV PRODUCTION</h1>
+  <p>BACKSTAGE</p>
+</header>
+
+<section class="slider-section">
+  <h2>Backstage — Фото</h2>
+  <div class="slider">
+    <button class="nav left" data-target="photo">‹</button>
+    <div class="track animate" id="photo-track">
+      <img src="images/b1.jpg">
+      <img src="images/b2.jpg">
+      <img src="images/b3.jpg">
+      <img src="images/b4.jpg">
+      <img src="images/b5.jpg">
+      <img src="images/b6.jpg">
+      <img src="images/b7.jpg">
+      <img src="images/b8.jpg">
+      <img src="images/b9.jpg">
+      <img src="images/b10.jpg">
+      <img src="images/b11.jpg">
+    </div>
+    <button class="nav right" data-target="photo">›</button>
+  </div>
+</section>
+
+<section class="slider-section">
+  <h2>Backstage — Видео</h2>
+  <div class="slider">
+    <button class="nav left" data-target="video">‹</button>
+    <div class="track animate" id="video-track">
+      <video src="videos/v1.mp4" controls></video>
+      <video src="videos/v2.mp4" controls></video>
+      <video src="videos/v3.mp4" controls></video>
+      <video src="videos/v4.mp4" controls></video>
+      <video src="videos/v5.mp4" controls></video>
+      <video src="videos/v6.mp4" controls></video>
+      <video src="videos/v7.mp4" controls></video>
+    </div>
+    <button class="nav right" data-target="video">›</button>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <span id="close">×</span>
+  <button id="prev">‹</button>
+  <button id="next">›</button>
+  <img id="lightbox-img">
+  <video id="lightbox-video" controls></video>
+</div>
+
+<footer>
+  © LEV PRODUCTION, 2026
+</footer>
+
+<script src="jetigen.js"></script>
+</body>
+</html>
